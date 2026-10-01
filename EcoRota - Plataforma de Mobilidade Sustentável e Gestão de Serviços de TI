@@ -1,0 +1,36 @@
+# EcoRota - Plataforma de Mobilidade Sustentável e Gestão de Serviços de TI
+
+> **Projetos Integradores (PI 2, PI 3 e PI 4)**  
+> **Instituição:** Centro Universitário Senac - Campus Santo Amaro  
+> **Curso:** Tecnólogo em Gestão da Tecnologia da Informação  
+> **Tema:** Concepção, Implementação e Desenvolvimento de Serviços de Tecnologia da Informação aplicados à Mobilidade Urbana Sustentável[cite: 35, 163, 207].
+
+---
+
+## Sobre o Projeto
+
+O **EcoRota** é uma solução digital concebida, planejada e desenvolvida estruturalmente ao longo da trajetória acadêmica com o propósito de promover a mobilidade urbana sustentável[cite: 35, 163, 207]. A plataforma conecta pedestres, corredores e ciclistas a trajetos seguros, integrando inteligência artificial, geolocalização, arquitetura em nuvem e governança de serviços de TI[cite: 35, 163, 207].
+
+## Trilha de Desenvolvimento (Projetos Integradores)
+
+1. **PI 2 (Concepção de Serviços):** Aplicação de *Design Thinking*, pesquisas de imersão e ideação com usuários, prototipagem de telas, desenvolvimento de lógica inicial (Python), estruturação do *Business Model Canvas* e simulação inicial de infraestrutura[cite: 207].
+2. **PI 3 (Implementação de Projetos):** Definição da Estrutura Analítica do Projeto (EAP), marcos (*milestones*), cronograma, análise financeira detalhada, requisitos funcionais e não-funcionais, e dimensionamento de servidores web e banco de dados[cite: 163].
+3. **PI 4 (Desenvolvimento de Serviços de TI):** Estruturação corporativa da *EcoTech*, dimensionamento de suporte técnico (N1/N2), catálogo de serviços, mapeamento de fluxos ITIL 4 (Gerenciamento de Incidentes e Cumprimento de Requisições), Matriz de Riscos, Matriz RACI e Matriz SWOT[cite: 35, 38].
+
+## Arquitetura e Governança Tecnológica
+
+* **Infraestrutura em Nuvem:** Google Cloud Platform (GCP) com arquitetura orientada a serviços *serverless* (Cloud Run, Cloud Run Functions, Cloud Storage, Cloud CDN e Cloud SQL)[cite: 207].
+* **APIs de Integração:** Google Maps Platform para geolocalização e rotas em tempo real[cite: 207].
+* **Gestão de Serviços:** Práticas de Service Desk estruturadas conforme as diretrizes do ITIL 4 e COBIT[cite: 35].
+
+## Estrutura do Repositório
+
+```text
+ecorota/
+├── README.md
+├── docs/
+│   ├── pi2_concepcao_e_design_thinking.md
+│   ├── pi3_requisitos_e_infraestrutura_nuvem.md
+│   └── pi4_service_desk_itil_e_governanca.md
+└── src/
+    └── prototipo_e_scripts/
